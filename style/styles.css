@@ -19,7 +19,15 @@
 
 body {
     font-family: arial,sans-serif;
+
+}
+
+#google {
+    width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #google header nav {
@@ -66,7 +74,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 #google main .content {
@@ -74,7 +81,9 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 800px;
+    height: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 #google main .content img {
